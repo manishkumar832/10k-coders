@@ -1,0 +1,239 @@
+#nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#fontname{
+    color: rgb(10, 10, 117);
+    font-size: 50px;
+}
+#fontpage{
+    color: orange;
+    font-size: 50px;
+}
+#navlinks{
+    display: flex;
+    column-gap: 20px;
+}
+#navlinks>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#nav-download{
+    display: flex;
+    gap: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#button{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#profile{
+    background-color: rgb(135, 135, 188,0.2);
+   display: flex;
+   width: 100%;
+   padding: 0.2em 0 4em 0em;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1em;
+}
+#about>#readbtn{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 30px;
+    width: 100px;
+}
+#profilepic{
+    padding: 0 0 0 2em;
+    display: flex;
+}
+#about{
+    margin: 20px;
+    width: 40%;
+    padding: 0 0 0 5em;
+}
+#about>p{
+    font-size: 70px;
+}
+#email{
+    width: 40%;
+    height: 20%;
+    display: inline;
+    background-color: rgb(162, 162, 186);
+padding: 10px 20px;
+}
+#email>input{
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#email>span{
+   background-color: orange;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 3px;
+}
+#email>span:hover{
+    background-color:transparent;
+}
+#choose{
+    display: flex;
+    margin-top: 5em;
+    width: 100%;
+ justify-content: center;
+}
+#chooseimg{
+    width: 40%;
+    margin-left: 60px;
+}
+#chooseus{
+    width: 40%;
+}
+#chooseus>span{
+    display: flex;
+    border-color: orange;
+    background-color: orange;
+    color:white;
+    padding: 4px 4px;
+    width: 20%;
+    justify-content: center;
+
+}
+#chooseus>h1{
+    padding: 0 3em 0 0;
+    font-size: 50px;
+    color: black;
+}
+#chooseus>p{
+    padding: 0 3em 0 1em;
+    font-size: 20px;
+    color: black;
+}
+#chooseusimg{
+    background-color: blue;
+}
+li::marker{
+    color: orange;
+}
+#strategy{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+#data{
+    width: 30%;
+    text-align: center;
+}
+#data>span{
+    padding: 5px 20px;
+    border: 2px solid orange;
+    background-color: rgb(189, 146, 67 ,0.2);
+}
+#data>h1{
+    font-size: 3em;
+    align-items: center;
+}
+#data>p{
+    font-size: medium;
+    align-items: center;
+}
+#servicecards{
+    width: 80%;
+    display:flex;
+    gap: 10px;
+}
+.cards{
+    display:flex;
+padding: 10px;
+width: 35%;
+justify-content: center;
+gap: 30px;
+border: 2px solid orange;
+}
+.cards>.card-left{
+    background-color: black;
+    color: white;
+    justify-content: start;
+    padding: 4px 3px;
+    height: 15px;
+    margin:30px 0 50px 10px;
+    border-radius: 4px;
+}
+#questions{
+    margin-top: 7em;
+}
+#common{
+    width: 90%;
+    text-align: center;
+}
+#common>span{
+    padding: 5px 20px;
+    border: 2px solid orange;
+    background-color: rgb(189, 146, 67 ,0.2);
+    align-items: center;
+}
+#common>h1{
+    font-size: 2em;
+    align-items: center;
+}
+
+.webquestion{
+    width:90%;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-color: black;
+    border-radius: 5px;
+    gap: 30px;
+
+}
+#aboutquestion{
+    width: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 70px;
+}
+#form{
+    margin-top: 7em;
+}
+#our-contact{
+width: 90%;
+text-align: center;
+margin: top 5em;;
+}
+#our-contact>span{
+    padding: 5px 20px;
+    border: 2px solid orange;
+    background-color: rgb(189, 146, 67 ,0.2);
+    align-items: center;
+}#our-contact>h1{
+    font-size: 50px;
+}
+#our-contact>p{
+    font-size: 20px;
+    margin:0 10em 1em 10em
+}
+.fillform{
+    width: 50vw;
+    border: 2px solid black;
+    padding: 20px 5px;
+    border-radius: 5px;
+    gap: 20px;
+    text-align: center;
+    margin-left: 20%;
+}
+#sendmsg{
+    background-color: orange;
+}
+
