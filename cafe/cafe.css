@@ -1,0 +1,98 @@
+body{
+    position:relative;
+    width: 100%;
+    background-color:white;
+}
+body>.img1{
+    position:relative;
+    top: 10px;
+    width:30%;
+    z-index: 0;
+    left: 50px;
+    border-radius:10px;
+}
+body>.img2{
+    position:relative;
+    top: 30px;
+    width: 20%;
+    border-radius: 10px;
+    z-index: 1;
+    right: 500px;
+    top: 200px;
+}
+body>#part1{
+    background-color:white;
+    position: relative;
+    z-index: 1;
+    bottom: 300px;
+    left: 450px;
+}
+#part1{
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 50%;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+#part1>h1{
+ font-size: 60px;
+}
+div>h3{
+    font-size: 30px;
+    color: rgb(130, 80, 80);
+    text-transform: uppercase;
+}
+#part>p{
+   font-size: 20px;
+   color: gray;
+}
+#part>ul{
+ font-size: 25px;
+ font-weight: 100;
+}
+li::marker{
+ color: rgb(171, 62, 62);
+}
+body>.img4{
+    position:relative;
+    top: 10px;
+    width: 30%;
+    z-index: 0;
+    left:800px;
+    border-radius: 10px;
+}
+body>.img5{
+    position:relative;
+    width: 15%;
+    z-index: 1;
+    left: 700px;
+    bottom: 100px;
+    border-radius: 8px;
+}
+body>#part2{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 400px;
+    right: 30px;
+}
+#part2{
+    align-items: center;
+    justify-content: center;
+    padding: 3em 3em 7em 7em;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+#part2>h3{
+    font-size: 20px;
+    text-transform:uppercase;
+    padding: 0 0 0 1em;
+}
+#part2>h1{
+    font-size:60px;
+    padding:0 70px 0 0 ;
+}
