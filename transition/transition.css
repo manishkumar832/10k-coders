@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+#main{
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 69, 69);
+    display: flex;
+    margin-bottom: 10px;
+}
+#movie{
+    border: 2px solid black;
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
+    transition:transform 4s ease-in 1s,all 4s ease-in 1s;
+}
+#movie>img{
+    transition: all 4s ease-in 1s;
+    padding-right: 1000px;
+}
+#movie>img:hover{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    
+    transform:translateX(50px);
+}
+
+#movie:hover{
+    background-color: aqua;
+    transform: rotate(10deg); 
+    width: 50%;
+    height: 50%;
+
+}
+#kohli{
+position:relative;
+left: 60%;
+margin-top: 50px;
+bottom: 330px;
+border:2px solid black;
+width: 20%;
+height: 20%;
+transition: all 4s ease-in-out 1s ,border-color,transform 4s linear 1s;
+}
+#kohli:hover{
+    width:30%;
+    height: 40%;
+    transform: scale(1.5,1.5);
+    background-color: greenyellow;
+}
+#table{
+    display:flex;
+    column-gap: 50%;
+    
+}
+#table1{
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    position: relative;
+    bottom: 200px;
+    left: 10px;
+    width: 40%;
+}
+#table2{
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+    bottom: 200px;
+    padding: 20px;
+    right: 200px;
+    width: 40%;
+}
+#table1:hover{
+    transform: skewY(20deg);
+}
+#table2:hover{
+    color: lightslategrey;
+    width:45%;
+}
