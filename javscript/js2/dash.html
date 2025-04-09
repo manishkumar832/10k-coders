@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dash Board</h1>
+    <button onclick="logout()">Logout</button>
+    <script>
+        function logout(){
+            const user=JSON.parse(localStorage.getItem("loggedinUser"))
+            if(user){
+                let confirmation=confirm("are you sure to logout..")
+                if (confirmation){
+                    localStorage.removeItem("loggedinUser")
+                    window.location.href="login.html"
+                }
+            }
+            
+        }
+    </script>
+</body>
+</html>
