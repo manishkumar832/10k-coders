@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js2.css">
+</head>
+<body>
+    <h1>sign up</h1>
+    <form onsubmit="clicksignup(event)">
+        <input type="text" placeholder="enter name" id="name"><br><br>
+        <input type="email" placeholder="email address" id="email"><br><br>
+        <input type="current-password" placeholder="enter password" id="password"><br> <br> 
+        <button type="submit">signup</button>
+    </form>
+
+    <script>
+function clicksignup(e){
+    e.preventDefault()
+    let user_Name=document.getElementById("name").value.trim()
+    let user_email=document.getElementById("email").value.trim()
+    let user_password=document.getElementById("password").value.trim()
+
+let allUsers=JSON.parse(localStorage.getItem("allUsers")) || []
+const existedUser=allUsers.find(x=>x.email===user_email)
+if(existedUser){
+    return alert("already user exists")
+}
+
+let newUser={
+   name:user_Name,
+   email:user_email,
+   password:user_password
+}
+allUsers.push(newUser)
+localStorage.setItem("allUsers",JSON.stringify(allUsers))
+window.location.href="login.html"
+}
+    </script>
+</body>
+</html>
