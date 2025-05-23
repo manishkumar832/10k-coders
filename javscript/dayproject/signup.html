@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signIn</title>
+    <style>
+        body{
+            background-color: rgb(223, 240, 240) ;
+        }
+        #container{
+         width:30%;
+         padding: 50px 0 50px 20px;
+         text-align: center;
+         margin: 150px 0 0 500px;
+         box-shadow: 0 2px 10px rgb(125, 125, 133);
+         border-radius: 20px;
+         background-color: white;
+        }
+        #email{
+            border-radius: 20px;
+            padding: 2px 5px;
+        }
+        #password{
+            border-radius: 20px;
+            padding: 2px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <input type="email" id="email" placeholder="Enter email here" required><br><br>
+    <input type="current-password" id="password" placeholder="Enter password " required><br><br>
+    <button type="submit">signIn</button> 
+    </div>
+
+    <script>
+        let signEmail=document.getElementById("email")
+        let signPassword=document.getElementById("password")
+        let Btn=document.querySelector("button")
+
+        Btn.addEventListener("click",(e)=>{
+            e.preventDefault()
+            const container=document.getElementById("container")
+            let signValue=signEmail.value.trim()
+            let signPasswordValue=signPassword.value.trim()
+            const allUser=JSON.parse(localStorage.getItem("allUser"))
+            const userfound=allUser.find(x=>x.email===signValue && x.password===signPasswordValue)
+
+            if(userfound){
+                localStorage.setItem("logInDetails",JSON.stringify(userfound))
+               window.location.href="DashBoard.html"
+            }else{
+                alert("No Match is Found❌ ")
+            }
+            document.container.append(Btn)
+        })
+    </script>
+</body>
+</html>
