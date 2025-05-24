@@ -1,0 +1,307 @@
+.navbar-collapse{
+    z-index: 1;
+    position: fixed;
+    background-color:transparent;
+    width: 100vw;
+    margin-top: 3rem;
+}
+.navbar-collapse:hover{
+    background-color: aquamarine;
+}
+/* myhtml */
+<nav class="navbar navbar-expand-lg bg-pimary">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+
+                    <ul class="navbar-nav me-auto mb-2  mb-lg-0 text-light">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light " href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light " href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="#">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="#">Contact</a>
+                        </li>
+                        <div id="rightone">
+
+                            <i class="fa-solid fa-phone"></i> 123-456-7890
+
+                            <i class="fa-solid fa-cart-shopping"></i> 0Items - $0.00
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        /* another */
+        <!-- <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="typer" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Online Store</a></li>
+                                <li><a class="dropdown-item" href="#">Classic Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tools</a></li>
+                                <li><a class="dropdown-item" href="#">pages</a></li>
+                                <li><a class="dropdown-item" href="#">Service plus</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">With Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Without Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Masonary Layouts</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio Layouts</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Contacts</a>
+                        </li>
+                        <div id="ringtone">
+
+                          <span> <i class="fa-solid fa-phone"></i> 123-456-7890</span>
+
+                            <i class="fa-solid fa-cart-shopping"></i> 0Items - $0.00
+                            <button class="btn btn-outline-success" type="submit">Book A Table</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+        /* multi */
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1>order Online</h1>
+                    <p>Our Delicious Pizzas</p>
+                    <img src="	https://pizzahouse.themerex.net/wp-content/uploads/2016/08/product-9.png" class="d-block"
+                        width="30%" alt="...">
+                    <h3>Mozarella</h3>
+                    <h4>Vitae enim vel nisi feugiat ultricies. Phasellus hendrerit pharetra posuere. In...</h4>
+                    <h5>$15.00</h5>
+                    <span>Select Options</span>
+                </div>
+                <div class="carousel-item">
+                    <h1>order Online</h1>
+                    <p>Our Delicious Pizzas</p>
+                    <img src="	https://pizzahouse.themerex.net/wp-content/uploads/2016/08/product-12.png"
+                        class="d-block " width="30%" alt="...">
+                    <h3>Burrata</h3>
+                    <h4>Vitae enim vel nisi feugiat ultricies. Phasellus hendrerit pharetra posuere. In...</h4>
+                    <h5>$22.00</h5>
+                    <span>Select Options</span>
+                </div>
+                <div class="carousel-item">
+                    <h1>order Online</h1>
+                    <p>Our Delicious Pizzas</p>
+                    <img src="https://pizzahouse.themerex.net/wp-content/uploads/2016/08/product-6.png" class="d-block "
+                        width="30%" alt="...">
+                    <h3>Gluten-Free Noodels</h3>
+                    <h4>Integer vitae enim vel nisi feugiat ultricies. Phasellus hendrerit pharetra posuere....</h4>
+                    <h5>$14.30</h5>
+                    <span>Select Options</span>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        /* 450 range */
+        
+        @media (min-width:0px) and (max-width:450px) {
+            .pizza {
+                background-image: url("https://i.pinimg.com/originals/fd/a9/37/fda9372e7f52fb078adc734c0a7d5c7a.jpg");
+                width: 100%;
+                background-size: cover;
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+        
+            .upper {
+                padding-left: 40%;
+                margin-bottom: 10%;
+            }
+        
+            .matter {
+                margin-bottom: 30%;
+                font-size: small;
+            }
+        
+            .matter>h2 {
+                padding-left: 10%;
+                font-size: 200%;
+                font-weight: 900;
+                color: yellow;
+                font-family: cursive;
+                margin-bottom: 10%;
+            }
+        
+            .matter>h1 {
+                padding-left: 10%;
+                font-size: 400%;
+                font-weight: 900;
+                color: white;
+                font-family: cursive;
+            }
+        
+            .matter>span {
+                background-color: red;
+                padding: 0.5%;
+                margin-left: 20%;
+        
+            }
+        
+            .welcome {
+                /* width: 100vw; */
+                /* margin:50px 0px; */
+                /* display:grid; */
+                grid-template-columns: repeat(1, 1fr);
+        
+            }
+        
+            .welcome1 {
+                width: 100%;
+                margin: 2rem 2rem 2rem 9rem;
+        
+            }
+        
+            .welcome1>h1 {
+                font-family: cursive;
+            }
+        
+            .welcome1>h6 {
+                font: size 1.9rem;
+                color: rgb(241, 183, 74);
+                font-style: oblique;
+            }
+        
+            .welcome1>p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: grey;
+                margin: 1.9rem 0, 8rem;
+            }
+        
+            .welcome1>span {
+                background-color: red;
+                color: black;
+                width: 20%;
+                border-radius: 30px;
+                padding: 0.5rem 1rem;
+            }
+        
+            .offer {
+                width: 100% !important;
+            }
+        
+            .offer>img {
+                width: 80% !important;
+        
+            }
+        
+        
+            .offer1 {
+                width: 100%;
+        
+        
+            }
+        
+            .offer1>img {
+                width: 100%;
+            }
+        
+            #our {
+                width: 100vw;
+                background-image: url("https://pizzahouse.themerex.net/wp-content/themes/pizzahouse/images/bg_wood.jpg");
+                background-size: 100%;
+                height: 80vh;
+                background-repeat: no-repeat;
+                display: flex;
+            }
+        
+            .pizza1 {
+                width: 35%;
+        
+                margin-left: 80px;
+            }
+        
+            .pizza1>img {
+                width: 50%;
+                margin: 70px 0px 0px 110px;
+            }
+        
+            .pizza1>h3 {
+                color: rgb(190, 140, 47);
+                margin: 10px 0px 0px 170px;
+            }
+        
+            .pizza1>p {
+                color: white;
+                padding: 10px 90px;
+            }
+        
+            .pizza1>h4 {
+                color: white;
+                margin-left: 190px;
+            }
+        
+            .pizza1>a {
+                text-decoration: none;
+                background-color: red;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 20px;
+                margin: 30px 0 0 170px;
+            }
+        }

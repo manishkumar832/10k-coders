@@ -1,0 +1,1611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collapse {
+    z-index: 2;
+    position: fixed;
+    color: rgb(24, 3, 3);
+    width:100%;
+    margin: 3rem 2rem 0 0 ;
+    background-color:rgb(187, 180, 180);
+}
+.nav-item>a:hover{
+    color: rgb(159, 61, 16) !important;
+}
+.simone:hover{
+    color: rgb(159, 61, 16) !important;
+}
+.simtwo:hover{
+    color: rgb(159, 61, 16) !important;
+}
+.matter>span:hover{
+    background-color: transparent;
+    border:3px ghostwhite solid;
+    color: orange;
+
+}
+.btn:hover{
+   background-color:lightblue!important;
+   color:black !important;
+}
+#ringtone {
+    margin-left: 30rem;
+    margin-top: 0.5rem;
+}
+
+.gap1 {
+    gap: 1em !important;
+    margin-right: 8%;
+}
+
+.welcome {
+    display: grid;
+    width: 100%;
+}
+
+.card {
+    background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_section.jpg?id=1191");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 5%;
+    padding-bottom:1rem;
+}
+.cards{
+    display:flex;
+   justify-content: center;
+    margin-left: 3rem;
+    gap:1rem;
+}
+.card>h6{
+    margin:5% 0 0 50%;
+    color:green;
+    font-style:oblique;
+    font-family: cursive;
+    font-size: large;
+}
+.card>h1{
+    margin: 2% 0 0 45%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-body>h5{
+    background-color: rgb(83, 167, 83);
+    padding: 1% 0 1% 15%;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+}
+.card-body>p{
+    font-size: larger;
+    padding: 0 5%;
+    font-weight:900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+}
+.card-body>h6{
+    margin-left: 30%;
+   font-family:'Times New Roman', Times, serif;
+   font-size: 80%;
+}
+.card-body>h6:hover{
+    color: rgb(216, 15, 15);
+}
+.card-text:hover{
+    color: rgb(216, 15, 15);
+}
+.touch{
+ margin: 8% 0 0 10%;
+ display: flex;
+ gap: 3%;
+ justify-content: center;
+}
+.glass{
+    width: 20%;
+}
+.glass>img{
+    width: 100%;
+    height: 50vh;
+}
+.info{
+    width: 30%;
+   
+}
+.pin{
+    display: flex;
+    gap: 2%;
+    padding: 1% 2%;
+    align-items:start;
+   
+}
+.pin>i{
+    color:rgb(239, 82, 82);
+    font-size:  x-large;
+}
+.clock{
+    display: flex;
+    gap: 2%;
+    
+}
+.clock>i{
+    color: rgb(239, 82, 82);
+    font-size:x-large;
+    margin-left: 2%;
+}
+.info>h6{
+    color: rgb(206, 41, 41);
+    font-style: italic;
+font-family:cursive;
+font-size: large;
+}
+.info>h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 7%;
+}
+hr{
+    text-decoration: wavy;
+    width: 100%;
+}
+.follow{
+    display: flex;
+    width: 100%;
+}
+.us{
+    display: flex;
+    gap: 5%;
+    width: 20%;
+    margin: 10% 0 0  10%;
+}
+.us>i{
+   color: rgb(199, 25, 25);
+   font-size: xx-large;
+}
+.us>p{
+    font-size:large;
+    margin-top: 1%;
+    font-weight: 700;
+}
+.last{
+    background-image: url("https://pizzahouse.themerex.net/wp-content/themes/pizzahouse/images/bg_wood.jpg");
+    margin-top: 2%;
+}
+.last>img{
+    margin-left: 40%;
+}
+.last>p{
+    margin:2% 40%;
+    color: white;
+}
+.welcome1>span:hover{
+    background-color:transparent;
+    border: 2px  rgb(194, 13, 13) solid;
+    color: rgb(194, 13, 13);
+   
+}
+.carousel-item>span:hover{
+    background-color:transparent;
+    border: 2px white solid;
+    color: white;
+}
+.more>span:hover{
+    background-color:transparent;
+    border: 2px  rgb(194, 13, 13) solid;
+    color: rgb(194, 13, 13);
+}
+.map-container>iframe{
+    height:100%;
+   
+}
+.carousel-item>h5{
+    color: yellow !important;
+}
+/* media query1 */
+@media(min-width:0px) and (max-width:450px) {
+    .nav-img{
+        display: none;
+    }
+    .simone{
+        display: none;
+    }
+    .simtwo{
+        display:none ;
+    }
+
+    .pizza {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/slide_1.jpg");
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .upper {
+        padding-left: 40%;
+    }
+
+    .matter {
+        padding: 20% 0 0 0;
+        font-size: small;
+
+    }
+
+    .matter>h2 {
+        padding-left: 10%;
+        font-size: 200%;
+        font-weight: 900;
+        color: yellow;
+        font-family: cursive;
+    }
+
+    .matter>h1 {
+        padding-left: 10%;
+        font-size: 400%;
+        font-weight: 900;
+        color: white;
+        font-family: cursive;
+    }
+
+    .matter>span {
+        background-color: red;
+        padding: 0.5%;
+        margin-left: 20%;
+        border-radius: 20px;
+    }
+
+    .welcome {
+        /* width: 100vw;
+        margin:50px 0px;
+        display:grid;
+        /* display: flex; */
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .welcome1 {
+        width: 50%;
+        margin: 2rem 2rem 2rem 9rem;
+
+    }
+
+    .welcome1>h1 {
+        font-family: cursive;
+    }
+
+    .welcome1>h6 {
+        font: size 1.9rem;
+        color: rgb(241, 183, 74);
+        font-style: oblique;
+    }
+
+    .welcome1>p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: grey;
+        margin: 1.9rem 0, 8rem;
+    }
+
+    .welcome1>span {
+        background-color: rgb(194, 13, 13);
+        color: black;
+        width: 20%;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+    }
+
+    .offer {
+        width: 100% !important;
+    }
+
+    .offer>img {
+        width: 70% !important;
+        margin: 0 0 1rem 4rem;
+       
+    }
+
+
+    .offer1 {
+        width: 100%;
+
+
+    }
+
+    .offer1>img {
+        width: 70%;
+        margin:0 0 1rem 4rem;
+    }
+
+    #our {
+        width: 100vw;
+        background-image: url("https://pizzahouse.themerex.net/wp-content/themes/pizzahouse/images/bg_wood.jpg");
+        background-size: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    .pizza1 {
+        width: 35%;
+
+        margin-left: 80px;
+    }
+
+    .pizza1>img {
+        width: 50%;
+        margin: 70px 0px 0px 110px;
+    }
+
+    .pizza1>h3 {
+        color: rgb(190, 140, 47);
+        margin: 10px 0px 0px 170px;
+    }
+
+    .pizza1>p {
+        color: white;
+        padding: 10px 90px;
+    }
+
+    .pizza1>h4 {
+        color: white;
+        margin-left: 190px;
+    }
+
+    .pizza1>a {
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin: 30px 0 0 170px;
+    }
+
+    .multipizza {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_wood.jpg?id=1164");
+        width: 100%;
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .carousel-item {
+        width: 100%;
+        color: yellow;
+        font-style: italic;
+        font-family: serif;
+    }
+
+    .carousel-inner {
+        display: flex;
+        padding-left: 40%;
+    }
+
+    .another>h1 {
+       color: yellow;
+        padding-left: 30%;
+    }
+    .carousel-item>h2{
+        color: white;
+    }
+    .carousel-item>p {
+        color: white;
+        font-style: normal;
+        font-family: monospace;
+        font-weight: 900;
+        font-size: 200%;
+    }
+
+    .carousel-item>h1 {
+        color: rgb(219, 219, 14);
+        margin-left: 20px;
+     
+    }
+    .pizzahut>img{
+        margin-left: 5px;
+    }
+    .carousel-item>h3 {
+        color: yellow;
+        padding: 5% 0 0 2%;
+    }
+
+    .carousel-item>h4 {
+
+        color: white !important;
+        margin-right: 40%;
+        font-size:small ;
+    }
+
+    .carousel-item>h5 {
+        color: white;
+        padding-left: 10%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .carousel-item>span {
+        font-style: normal;
+        background-color: red;
+        color: white;
+        padding: 1% 3%;
+        border-radius: 20px;
+        margin-left: 5%;
+    }
+
+    .dish {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_section.jpg?id=1191");
+        width: 100%;
+        background-size: cover;
+        height: 120vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #slice>h1 {
+        font-family: cursive;
+        padding: 3% 0 3% 37%;
+        font-size: 320%;
+    }
+
+    .click>span {
+        background-color: rgb(235, 228, 228);
+        padding: 0.3%;
+        border-radius: 20px;
+        margin: 2% 0 0 30%;
+        
+    }
+
+    .menu-item {
+        background-color: rgb(235, 228, 228);
+        border: none;
+        color: gray;
+        padding: 0.5%;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    .menu-item:hover {
+        background-color: green;
+        color: white;
+    }
+
+    .item {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .veg {
+        width: 50%;
+        display: flex;
+        gap: 5%;
+        margin: 8% 0 0 10%;
+    }
+
+    .veg>img {
+        width: 15%;
+        border-radius: 50%;
+        height: 10%;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .price>h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:small;
+    }
+
+    .price>span {
+        color: red;
+    }
+
+    .veg-matter {
+        width: 80%;
+    }
+     
+    .veg-matter>hr {
+        text-decoration: dashed;
+    }
+
+    .veg-matter>h5 {
+        font-size: small;
+        color: gray;
+    }
+
+    .item2 {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .item3 {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .more {
+        display: flex;
+        margin: 5% 0 0 30%;
+        padding: 0.5rem 1rem;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        border-radius: 20px;
+
+
+    }
+    #slice>h1{
+     padding: 8% 0 3% 18%;
+     font-size:30PX;
+    }
+    .click{
+        font-size:smaller;
+        margin-right: 35Px;
+    }
+    .review {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_testimonials.jpg?id=1319");
+        width: 100%;
+        background-size: cover;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .top-data>h6 {
+        font-family: cursive;
+        font-style: italic;
+        color: yellow;
+        font-size: x-large;
+        margin: 5% 0 0 30%;
+        padding-top: 5%;
+    }
+
+    .top-data>p {
+        color: white;
+        margin-left: 20%;
+        padding: 2% 0 0 7%;
+        font-size: 2rem;
+        margin-bottom: 5%;
+        font-family: monospace;
+        font-style: oblique;
+    }
+
+    .carousel-item>p {
+        font-size:50%;
+        width: 80%;
+        font-style: oblique;
+
+        margin-right: 80%;
+        color: white;
+    }
+
+    .carousel-item>h4 {
+        font-style: initial;
+        color: yellow;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .left1>h1 {
+        margin-left: 25%;
+        font-style: inherit;
+        font-family: monospace;
+        font-weight: 600;
+    }
+
+    .left1 {
+        width: 50%;
+        margin: 0 1% 2% 10%;
+        gap: 10%;
+    }
+
+    .click1 {
+        margin: 5% 0 0 15%;
+        width: 30%;
+        padding: 1% 0 1% 5% !important;
+        background-color: gainsboro;
+        border-radius: 20px;
+
+    }
+
+    .click1>span {
+        display: flex;
+        width: 50%;
+    }
+
+    .menu-1 {
+        padding: 10% 10%;
+        gap: 4%;
+        background-color: transparent;
+        color: gray;
+        text-decoration: none;
+        border-radius: 20px;
+
+    }
+
+    .menu-1:hover {
+        background-color: rgb(226, 72, 72);
+        color: white;
+    }
+
+    .left1>p {
+        margin-top: 5%;
+        padding: 0 20% 1% 10%;
+        font-size:x-small;
+    }
+
+    .left1>h6 {
+        margin-left: 30%;
+    }
+    .touch{
+        margin: 8% 0 0 10%;
+        width: 50%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1%;
+        justify-content: center;
+       }
+       .card {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_section.jpg?id=1191");
+        width: 100%;
+        background-size: cover;
+        height: 200vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 5%;
+    }
+    .card>h6{
+        margin: 5% 0 0 30%;
+    }
+    .card>h1{
+        margin: 5% 0 0 30%;
+    }
+    .cards{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 3rem;
+        gap:1rem;
+    }
+       .glass{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .glass>img{
+        width: 100%;
+        height: 70vh;
+        margin-left: 25px;
+    }
+    .follow{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin-left: 15px;
+    }
+    .us{
+        display: flex;
+        width: 90%;
+        gap: 5%;
+        margin: 10% 0 0  10%;
+    }
+    .map-container{
+        margin-left: 20%;
+    }
+    .info{
+        width: 100%;
+        margin-left: 25%;
+       padding-bottom: 10%;
+    }
+    .last>img{
+        margin-left: 14%;
+    }
+    .last>p{
+        margin:3% 8%;
+        color: white;
+        font-size: small;
+    }
+}
+
+/* media query 2 */
+@media(min-width:451px) and (max-width:768px) {
+    .nav-img{
+        display: none;
+    }
+    .simone{
+        display: none;
+    }
+    .simtwo{
+        display:none ;
+    }
+    .pizza {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/slide_1.jpg");
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .upper {
+        padding-left: 40%;
+    }
+
+    .matter {
+        padding: 20% 0 0 0;
+        font-size: small;
+
+    }
+
+    .matter>h2 {
+        padding-left: 10%;
+        font-size: 200%;
+        font-weight: 900;
+        color: yellow;
+        font-family: cursive;
+    }
+
+    .matter>h1 {
+        padding-left: 10%;
+        font-size: 400%;
+        font-weight: 900;
+        color: white;
+        font-family: cursive;
+    }
+
+    .matter>span {
+        background-color: red;
+        padding: 0.5%;
+        margin-left: 20%;
+        border-radius: 20px;
+    }
+
+    .welcome {
+        /* width: 100vw;
+        margin:50px 0px;
+        display:grid;
+        /* display: flex; */
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .welcome1 {
+        width: 50%;
+        margin: 2rem 2rem 2rem 9rem;
+
+    }
+
+    .welcome1>h1 {
+        font-family: cursive;
+    }
+
+    .welcome1>h6 {
+        font: size 1.9rem;
+        color: rgb(241, 183, 74);
+        font-style: oblique;
+    }
+
+    .welcome1>p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: grey;
+        margin: 1.9rem 0, 8rem;
+    }
+
+    .welcome1>span {
+        background-color: red;
+        color: black;
+        width: 20%;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+    }
+
+    .offer {
+        width: 100% !important;
+    }
+
+    .offer>img {
+        width: 56% !important;
+        height: 70vh;
+        margin:0 0 1rem 7rem;
+
+    }
+
+
+    .offer1 {
+        width: 100%;
+
+
+    }
+
+    .offer1>img {
+        width: 56%;
+        height: 70vh;
+        margin:0 0 1rem 7rem;
+    }
+
+    #our {
+        width: 100vw;
+        background-image: url("https://pizzahouse.themerex.net/wp-content/themes/pizzahouse/images/bg_wood.jpg");
+        background-size: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    .pizza1 {
+        width: 35%;
+
+        margin-left: 80px;
+    }
+
+    .pizza1>img {
+        width: 50%;
+        margin: 70px 0px 0px 110px;
+    }
+
+    .pizza1>h3 {
+        color: rgb(190, 140, 47);
+        margin: 10px 0px 0px 170px;
+    }
+
+    .pizza1>p {
+        color: white;
+        padding: 10px 90px;
+    }
+
+    .pizza1>h4 {
+        color: white;
+        margin-left: 190px;
+    }
+
+    .pizza1>a {
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin: 30px 0 0 170px;
+    }
+
+    .multipizza {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_wood.jpg?id=1164");
+        width: 100vw;
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .carousel-item {
+        width: 100%;
+        color: yellow;
+        font-style: italic;
+        font-family: serif;
+    }
+
+    .carousel-inner {
+        display: flex;
+        padding-left: 40%;
+    }
+
+    .carousel-item>h1 {
+        color: rgb(247, 247, 240);
+        font-size: xx-large;
+        padding-left:5%;
+        border: none;
+    }
+    .carousel-item>img{
+        margin-left: 30px;
+    }
+    .carousel-item>p {
+        color: white;
+        font-style: normal;
+        font-family: monospace;
+        font-weight: 900;
+        font-size: 200%;
+    }
+
+    .another>h1 {
+        color: rgb(231, 231, 16);
+        padding-left: 30%;
+    }
+
+    .carousel-item>h3 {
+        color: yellow;
+        padding: 5% 0 0 7%;
+    }
+
+    .carousel-item>h4 {
+
+        color: white !important;
+        margin-right: 40%;
+    }
+
+    .carousel-item>h5 {
+        color: white;
+        padding-left: 10%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .carousel-item>span {
+        font-style: normal;
+        background-color: red;
+        color: white;
+        padding: 1% 3%;
+        border-radius: 20px;
+        margin-left: 5%;
+    }
+
+    .dish {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_section.jpg?id=1191");
+        width: 100vw;
+        background-size: cover;
+        height: 120vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #slice>h1 {
+        font-family: cursive;
+        padding: 3% 0 3% 37%;
+        font-size: 320%;
+        ;
+    }
+
+    .click>span {
+        background-color: rgb(235, 228, 228);
+        padding: 0.7%;
+        border-radius: 20px;
+        margin: 5% 0 0 40%;
+    }
+
+    .menu-item {
+        background-color: rgb(235, 228, 228);
+        border: none;
+        color: gray;
+        padding: 0.5%;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    .menu-item:hover {
+        background-color: green;
+        color: white;
+    }
+
+    .item {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .veg {
+        width: 50%;
+        display: flex;
+        gap: 5%;
+        margin: 8% 0 0 10%;
+    }
+
+    .veg>img {
+        width: 15%;
+        border-radius: 50%;
+        ;
+
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .price>h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+    }
+
+    .price>span {
+        color: red;
+    }
+
+    .veg-matter {
+        width: 80%;
+    }
+
+    .veg-matter>hr {
+        text-decoration: dashed;
+    }
+
+    .veg-matter>h5 {
+        font-size: small;
+        color: gray;
+    }
+
+    .item2 {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .item3 {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .more {
+        display: flex;
+        margin: 5% 0 0 45%;
+        padding: 0.5rem 1rem;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        border-radius: 20px;
+
+
+    }
+
+    .more>a {
+        text-decoration: none;
+        color: white;
+        padding: 5% 1%;
+
+    }
+    .review {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_testimonials.jpg?id=1319");
+        width: 100vw;
+        background-size: cover;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .top-data>h6 {
+        font-family: cursive;
+        font-style: italic;
+        color: yellow;
+        font-size: x-large;
+        margin: 5% 0 0 43%;
+        padding-top: 5%;
+    }
+
+    .top-data>p {
+        color: white;
+        margin-left: 30%;
+        padding: 2% 0 0 7%;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        font-family: monospace;
+        font-style: oblique;
+    }
+
+    .carousel-item>p {
+        font-size: large;
+        width: 80%;
+        font-style: oblique;
+
+        margin-right: 80%;
+        color: white;
+    }
+
+    .carousel-item>h4 {
+        font-style: initial;
+        color: yellow;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .left1>h1 {
+        margin-left: 25%;
+        font-style: inherit;
+        font-family: monospace;
+        font-weight: 600;
+    }
+
+    .left1 {
+        width: 50%;
+        margin: 0 1% 2% 10%;
+        gap: 10%;
+    }
+
+    .click1 {
+        margin: 5% 0 0 15%;
+        width: 30%;
+        padding: 1% 0 1% 5% !important;
+        background-color: gainsboro;
+        border-radius: 20px;
+
+    }
+
+    .click1>span {
+        display: flex;
+        width: 50%;
+    }
+
+    .menu-1 {
+        padding: 10% 10%;
+        gap: 4%;
+        background-color: transparent;
+        color: gray;
+        text-decoration: none;
+        border-radius: 20px;
+
+    }
+
+    .menu-1:hover {
+        background-color: rgb(226, 72, 72);
+        color: white;
+    }
+    .us{
+      width: 50%;
+    }
+    .glass>img{
+        height: 65vh;
+    }
+    .us>p{
+        font-size: small;
+    }
+    .left1>p {
+        margin-top: 5%;
+        padding: 0 20% 1% 10%;
+    }
+
+    .left1>h6 {
+        margin-left: 30%;
+    }
+    .last>img{
+        margin-left: 30%;
+    }
+    .last>p{
+        margin:2% 25%;
+        color: white;
+    }
+}
+         /* media query/3 */
+@media(min-width:769px) and (max-width:1660px), (min-width:1661px) {
+    .navbar{
+        width: 100%;
+    }
+    .nav-img{
+        margin-right:auto;
+    }
+    .pizza {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/slide_1.jpg");
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+
+    #ringtone>.btn {
+        background-color: red;
+        color: white;
+    }
+
+    .matter {
+        padding: 30% 0 2% 10%;
+        margin-bottom: 5%;
+    }
+
+    .matter>h2 {
+        padding-left: 10%;
+        font-size: 200%;
+        font-weight: 900;
+        color: yellow;
+        font-family: cursive;
+    }
+
+    .matter>h1 {
+        padding-left: 10%;
+        font-size: 400%;
+        font-weight: 900;
+        color: white;
+        font-family: cursive;
+    }
+
+    .matter>span {
+        background-color:rgb(229, 155, 18);
+        border: 2px orange solid;
+        padding: 0.5%;
+        margin-left: 20%;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .welcome {
+        width: 100%;
+        margin: 50px 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .welcome1 {
+        width: 50%;
+        margin: 2rem 2rem 2rem 9rem;
+
+    }
+
+    .welcome1>h1 {
+        font-family: cursive;
+    }
+
+    .welcome1>h6 {
+        font: size 1.9rem;
+        color: rgb(241, 183, 74);
+        font-style: oblique;
+    }
+
+    .welcome1>p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: grey;
+        margin: 1.9rem 0, 8rem;
+    }
+
+    .welcome1>span {
+        background-color: red;
+        color: black;
+        width: 20%;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+    }
+
+    #offer {
+        width: 60%;
+    }
+
+    #offer>img {
+        width: 100%;
+
+    }
+
+
+    #offer1 {
+        width: 60%;
+
+
+    }
+
+    #offer1>img {
+        width: 100%;
+    }
+
+    .multipizza {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_wood.jpg?id=1164");
+        width: 100%;
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index:-1;
+    }
+
+    .carousel-item {
+        width: 100%;
+        color: yellow;
+        font-style: italic;
+        font-family: serif;
+    }
+
+    .carousel-inner {
+        display: flex;
+        padding-left: 40%;
+    }
+
+    .carousel-item>h1 {
+        color: yellow;
+        font-size: xx-large;
+        padding-left: 25%;
+    }
+
+    .carousel-item>h2 {
+        color: white;
+        font-style: normal;
+        font-family: monospace;
+        font-weight: 900;
+       /* font-size: 180% !important; */
+    }
+
+    .carousel-item>h1 {
+        color: yellow;
+        font-size: xx-large;
+        padding-left: 5%;
+    }
+
+    .carousel-item>h3 {
+        color: yellow;
+        padding: 5% 0 0 7%;
+    }
+
+    .carousel-item>h4 {
+
+        color: white !important;
+        margin-right: 40%;
+       
+    }
+
+    .carousel-item>h5 {
+        color: white;
+        padding-left: 10%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .carousel-item>span {
+        font-style: normal;
+        background-color: red;
+        color: white;
+        padding: 1% 3%;
+        border-radius: 20px;
+        margin-left: 5%;
+    }
+
+    .dish {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_section.jpg?id=1191");
+        width:100%;
+        background-size: cover;
+        height: 120vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #slice>h1 {
+        font-family: cursive;
+        padding: 3% 0 3% 37%;
+        font-size: 320%;
+        ;
+    }
+
+    .click>span {
+        background-color: rgb(235, 228, 228);
+        padding: 0.7%;
+        border-radius: 20px;
+        margin: 5% 0 0 40%;
+    }
+
+    .menu-item {
+        background-color: rgb(235, 228, 228);
+        border: none;
+        color: gray;
+        padding: 0.5%;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    .menu-item:hover {
+        background-color: green;
+        color: white;
+    }
+
+    .item {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .veg {
+        width: 50%;
+        display: flex;
+        gap: 5%;
+        margin: 8% 0 0 10%;
+    }
+
+    .veg>img {
+        width: 15%;
+        border-radius: 50%;
+        ;
+
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .price>h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+    }
+
+    .price>span {
+        color: red;
+    }
+
+    .veg-matter {
+        width: 80%;
+    }
+
+    .veg-matter>hr {
+        text-decoration: dashed;
+    }
+
+    .veg-matter>h5 {
+        font-size: small;
+        color: gray;
+    }
+
+    .item2 {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .item3 {
+        display: flex;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .more>span{
+        display: flex;
+        margin: 5% 0 0 45%;
+        padding: 0.5rem 1rem;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        border-radius: 20px;
+
+
+    }
+    .review {
+        background-image: url("https://pizzahouse.themerex.net/wp-content/uploads/2016/08/bg_testimonials.jpg?id=1319");
+        width: 100%;
+        background-size: cover;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .top-data>h6 {
+        font-family: cursive;
+        font-style: italic;
+        color: yellow;
+        font-size: x-large;
+        margin: 5% 0 0 43%;
+        padding-top: 5%;
+    }
+
+    .top-data>p {
+        color: white;
+        margin-left: 30%;
+        padding: 2% 0 0 7%;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        font-family: monospace;
+        font-style: oblique;
+    }
+    .another>h1{
+        color: yellow;
+        margin-left: 6rem;
+    }
+    .carousel-item>p {
+        font-size: large;
+        width: 80%;
+        font-style: oblique;
+        padding-right: 25%;
+        margin-right: 80%;
+        color: white;
+    }
+
+    .carousel-item>h4 {
+        font-style: initial;
+        color: yellow;
+    }
+
+    .story {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .left1>h1 {
+        margin-left: 25%;
+        font-style: inherit;
+        font-family: monospace;
+        font-weight: 600;
+    }
+
+    .left1 {
+        width: 50%;
+        margin: 0 1% 2% 10%;
+        gap: 10%;
+    }
+
+    .click1 {
+        margin: 5% 0 0 15%;
+        width: 40%;
+        padding: 1% 0 1% 5% !important;
+        background-color: gainsboro;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    .click1>span {
+        display: flex;
+        width: 50%
+    }
+
+    .menu-1 {
+        padding: 10% 10%;
+        gap: 4%;
+        background-color: transparent;
+        color: gray;
+        text-decoration: none;
+        border-radius: 20px;
+
+    }
+
+    .menu-1:hover {
+        background-color: rgb(226, 72, 72);
+        color: white;
+    }
+
+    .left1>p {
+        margin-top: 5%;
+        padding: 0 20% 1% 10%;
+    }
+
+    .left1>h6 {
+        margin-left: 30%;
+    }
+
+    .left1>h6:hover {
+        color: red;
+    }
+}
